@@ -121,7 +121,7 @@
         color:white;    
         position: relative;
         font-family: Arial, Helvetica, sans-serif;
-        height:600px;
+        height:400px;
     }
 
     .Education{
@@ -503,6 +503,10 @@ header h1{
         /* float: left; */
         text-align: left;
         margin-left:3%;
+        }
+
+        .Intro,.Education{
+          height:600px;
         }
   }
 
