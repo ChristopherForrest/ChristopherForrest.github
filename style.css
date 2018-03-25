@@ -504,19 +504,11 @@ header h1{
         text-align: left;
         margin-left:3%;
         }
-
-        .Intro,.Education{
+        .Intro{
           height:600px;
+        
         }
   }
 
     
 } 
-
-
-@media (max-width: 768px){
-
-
-
-    
-}
