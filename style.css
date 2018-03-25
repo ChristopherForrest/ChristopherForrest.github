@@ -6,6 +6,7 @@
         background:url(background.jpg) fixed;   
         background-size:cover;
         background-color: black;
+        font-size:105%;
 
 
     }
@@ -121,7 +122,7 @@
         color:white;    
         position: relative;
         font-family: Arial, Helvetica, sans-serif;
-        /* height:400px; */
+        /* height:400px; --  LET CONTENT DEFINE SIZE OF CONTAINER */
     }
 
     .Education{
@@ -134,7 +135,8 @@
         color:white;    
         position: relative;
         font-family: Arial, Helvetica, sans-serif;
-        /* height:500px; */
+        /* height:500px; --  LET CONTENT DEFINE SIZE OF CONTAINER */
+        
         font-size:120%;
         margin-bottom: 60px;
 
