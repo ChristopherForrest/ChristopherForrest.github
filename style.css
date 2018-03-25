@@ -495,7 +495,7 @@ header h1{
     text-align: left;
     margin-left:3%;
     }
-  
+  }
     @media (max-width: 768px){
         .direction-r {
         /* position: relative; */
@@ -504,11 +504,9 @@ header h1{
         text-align: left;
         margin-left:3%;
         }
-        .Intro{
-          height:600px;
+        
         
         }
-  }
 
     
-} 
+
