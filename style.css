@@ -486,6 +486,7 @@ header h1{
     text-align: left;
     margin-left:2.5%;
   }
+
 }
 
 
@@ -497,9 +498,7 @@ header h1{
     text-align: left;
     margin-left:3%;
     }
-    .body{
-      font-size:200%;
-    }
+   
   }
     @media (max-width: 768px){
         .direction-r {
@@ -509,7 +508,4 @@ header h1{
         text-align: left;
         margin-left:3%;
         }
-        
-    
-
       }
