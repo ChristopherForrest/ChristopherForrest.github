@@ -89,6 +89,18 @@
 
     }
 
+    .Project_Picture:hover{
+      -webkit-transition: opacity 0.5s ease-in-out;
+      -moz-transition: opacity 0.5s ease-in-out;
+      -o-transition: opacity 0.5s ease-in-out;
+      transition: opacity 0.5s ease-in-out;
+      opacity:0.8;
+      border: aqua solid 2px;
+
+    }
+
+
+
 /* -------------------------TECHSTACK INFORMATION----------------------------------- */
 
 
