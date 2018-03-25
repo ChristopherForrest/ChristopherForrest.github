@@ -8,7 +8,7 @@
     body{
         margin:0;
         padding:0;
-        background:url(background.jpg) fixed;   
+        background:url(resources/background.jpg) fixed;   
         background-size:cover;
         background-color: black;
         font-size:105%;
@@ -175,6 +175,33 @@
 
     }
    
+
+
+/* -------------------------------------PROJECTS----------------------------------------------------- */
+
+
+.Projects {
+  width:450px;
+  background: rgba( 0, 0, 0, 0.4);
+  padding:40px;
+  text-align:center;
+  margin:auto;
+  margin-top:5%;
+  color:white;    
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  height:600px;
+  margin-bottom:50px;
+
+}
+
+.Project_Picture{
+  height:200px;
+  width:200px;
+  margin-right:20px;
+  margin-top:20px;
+
+}
 
 
 /* ------------------------------------ TIMELINE --------------------------------------------------- */
@@ -479,17 +506,17 @@ header h1{
 }
 
 @media(min-width: 992px){
-  .timeline {
-    width: 800px;
-    margin: 0 auto;
-    margin-top: 20px;
+   .timeline {
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 20px;
   }
-  .direction-r {
-    position: relative;
-    width: 380px;
-    float: left;
-    text-align: left;
-    margin-left:2.5%;
+   .direction-r {
+      position: relative;
+      width: 380px;
+      float: left;
+      text-align: left;
+      margin-left:2.5%;
   }
 
 }
@@ -497,19 +524,17 @@ header h1{
 
 @media (max-width: 991px){
     .direction-r {
-    position: relative;
-    width: 380px;
-    float: left;
-    text-align: left;
-    margin-left:3%;
+      position: relative;
+      width: 380px;
+      float: left;
+      text-align: left;
+      margin-left:3%;
     }
    
   }
-    @media (max-width: 768px){
-        .direction-r {
-        /* position: relative; */
+  @media (max-width: 768px){
+     .direction-r {
         width: 380px;
-        /* float: left; */
         text-align: left;
         margin-left:3%;
         }

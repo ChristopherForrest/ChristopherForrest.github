@@ -1,0 +1,76 @@
+
+p{
+    color:white;
+    text-align:center;
+    margin:0 25%; 
+    width:50%;
+}
+img{
+
+  width:100%;
+  height:20%;
+  position:sticky;
+}
+
+body{
+    padding:0;
+    margin:0;
+    background-color: black;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:rgb(222, 89, 71);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color:white;
+}
+
+div.header{
+    position: -webkit-sticky;
+    position:sticky;
+    top:0;
+    background-color:black; 
+    
+}
+
+div.myname{
+    color:red;
+    position:fixed;
+    top:0;   
+}
+
+p:hover{
+    cursor: pointer;
+    background-color:white;
+    color:black;
+
+}
+
+
+
+
+
+
+
+
+
